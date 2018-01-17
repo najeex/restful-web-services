@@ -11,6 +11,10 @@ public class User {
 
     private Date birthday;
 
+    protected User(){
+
+    }
+
 
     public User(Integer id, String name, Date birthday) {
         this.id = id;
